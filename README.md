@@ -2,6 +2,34 @@
 
 [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/staeiou/wikibot_workshop/master)
 
+# Setup
+## Clone the repository
+1. In a terminal / Anaconda Prompt window, type:
+```
+git clone http://github.com/staeiou/wikibot_workshop
+```
+## Install xz
+### Mac OS X
+1. Press Command+Space and type Terminal and press enter/return key.
+2. Type
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+```
+3. Type
+```
+brew install xz
+```
+
+### Linux
+1. Open a terminal window
+2. Type
+```
+sudo apt install xz-utils
+```
+### Windows
+
+
+
 ## By R. Stuart Geiger and Aaron Halfaker
 This is the code and partial data repository for [a paper](https://upload.wikimedia.org/wikipedia/commons/f/f4/Operationalizing-conflict-bots-wikipedia-cscw-preprint.pdf) that has been accepted for publication in *Proceedings of the ACM on Human Computer Interaction* (November 2017) and will be presented at the ACM conference on Computer-Supported Cooperative Work and Social Computing (CSCW) in 2018. The paper is exploring the phenomenon of bot-bot reverts in Wikipedia, in which automated software agents undo each other's edits. While previous research raised caution about these cases and used them as evidence for Wikipedia's failure to properly govern automation, our collaborative computational/ethnographic approach explores these cases in rich detail and nuance, asking when it is appropriate to classify bot-bot reverts as conflict or not. We find that an overwhelming proportion of bot-bot reverts are cases in which bots are doing important, productive work that present as reverts due to the ways in which work in Wikipedia is organized.
 
