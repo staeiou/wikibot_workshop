@@ -1,0 +1,2 @@
+This is a sample text file for the workshop.
+It has two lines now. 
