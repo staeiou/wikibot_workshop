@@ -1,1 +1,1 @@
-This is my project for the workshop.
+This is my project for the workshop. It is cool.
